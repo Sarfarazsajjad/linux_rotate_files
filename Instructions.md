@@ -1,18 +1,22 @@
 #INSTRUCTIONS
 
 ##About Script
+
 The purpose of this script is perform the auto deletion of files in a certain directory that are older than **X** days. 
 
 ##Configuration
+
 For configuration or settings of this script, there's a file ```settings.sh```, which contains two parameters:
 * ```DIR_PATH``` - To configure the directory path
 * ```DAY_DIFF``` - To provide max file duration after which it will be deleted
 
 ##Running the Script Manually
+
 To run the script manually, simply go into the directory where ```file_remover.sh``` file is located and run the following command:
 > $ ./file_remover.sh
 
 ##Automating The Script Execution using Cronjob
+
 Method to run this script as a cronjob is explained below:
 * First goto crontab:
   > $ crontab -e
