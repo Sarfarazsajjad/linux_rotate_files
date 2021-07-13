@@ -21,7 +21,7 @@ Method to run this script as a cronjob is explained below:
 * First goto crontab:
   > $ crontab -e
 * Structure of cronjob.
-  > ```* * * * * command```
+  > * * * * * command
 * There are five **asterisk**, following is brief explaination of how to use them:
   *  1st - Minutes [0-59]
   *  2nd - Hours [0-23]
@@ -29,6 +29,6 @@ Method to run this script as a cronjob is explained below:
   *  4th - Month [1-12]
   *  5th - Day-of-Week [0-6] (0=Sunday, 7=Sunday)
 * Now add your script in this file opened in terminal
-  > ```0 0 * * * /path/to/directory/file_remover.sh ```
+  > 0 0 * * * /path/to/directory/./file_remover.sh
   
 * Save it, now new cronjob will be installed and run every day automatically
